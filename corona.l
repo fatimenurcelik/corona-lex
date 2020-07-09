@@ -15,11 +15,11 @@
 DOGRULUK		("DOGRU"|"YANLIS")
 
 /* brackets for parameters	*/
-PARANTEZ_AC	    (\()
-PARANTEZ_KAPA	(\))
+PARANTEZ_AC	    (()
+PARANTEZ_KAPA	())
 
 /* "ise" is for { and "." is for }	*/
-ISE		   	    ISE
+ISE		        ISE
 NOKTA			NOKTA
 
 /* conditional statements	*/
@@ -38,15 +38,15 @@ ESITTIR			ESITTIR
 /* Logical operators */
 
 ANCAKVEANCAK	(ANCAKVEANCAK|<=>)
-VE			    (VE|\&&)
-VEYA			(VEYA|\|)
-DEGIL			(DEGIL|\^)
-DEMEK			(DEMEK|\=>)
-KUCUKESIT		(KUCUKESIT|\<=)
-KUCUKTUR		(KUCUK|\<)
-BUYUKESIT		(BUYUKESIT|\>=)
-BUYUKTUR		(BUYUK|\>)
-ESIT			(ESIT|\==)
+VE			    (VE|&&)
+VEYA			(VEYA| |)
+DEGIL			(DEGIL|^)
+DEMEK			(DEMEK|=>)
+KUCUKESIT		(KUCUKESIT| <=)
+KUCUKTUR		(KUCUK| <)
+BUYUKESIT		(BUYUKESIT| >=)
+BUYUKTUR		(BUYUK| >)
+ESIT			(ESIT| ==)
 
 /* Print and scan functions for IO */
 EKRANAYAZ		EKRANAYAZ
@@ -56,11 +56,11 @@ TARA			TARA
 DONGU			DONGU	
 
 /* Operators */
-ARTI			(ARTI|\+)			
-EKSI			(EKSI|\-)
-BOLU			(BOLU|\/)
-CARPI			(CARPI|\*)
-KALAN			(KALAN|\%)
+ARTI			(ARTI| +)			
+EKSI			(EKSI| -)
+BOLU			(BOLU| /)
+CARPI			(CARPI| *)
+KALAN			(KALAN| %)
 
 /* Functions and classes, BOLUM equals class, CALISTIR equals functions */
 CALISTIR		CALISTIR
