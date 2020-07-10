@@ -68,18 +68,18 @@ BOLUM			BOLUM
 
 
 /* Variables and constants	*/
-YAZIDIZISI		[a-zA-Z]+
+/*YAZIDIZISI		[a-zA-Z]+
 SAYI			
 DEGISKEN		[a-zA-Z][a-zA-Z]*[0-9]*
 
-
+*/
 %%
 
 
 {DOGRULUK}							printf("DOGRULUK IBARESI ");
-{YAZIDIZISI}							printf("YAZIDIZISI ");
+[a-zA-Z]+						printf("YAZIDIZISI ");
 [0-9]+							printf("SAYI ");
-{DEGISKEN}							printf("DEGISKEN ");
+[a-zA-Z][a-zA-Z]*[0-9]*							printf("DEGISKEN ");
 {PARANTEZ_AC}							printf("AC PARANTEZ ");
 {PARANTEZ_KAPA}							printf("KAPA PARANTEZ ");
 {ISE}								printf("ISE \n");
