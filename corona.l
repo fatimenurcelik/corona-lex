@@ -12,7 +12,7 @@
 %}
 
 /* Booleans */
-DOGRULUK		("DOGRU"|"YANLIS")
+DOGRULUK		(DOGRU | YANLIS)
 
 /* brackets for parameters	*/
 PARANTEZ_AC	    (()
@@ -77,9 +77,9 @@ DEGISKEN		[a-zA-Z][a-zA-Z]*[0-9]*
 
 
 {DOGRULUK}							printf("DOGRULUK IBARESI ");
-YAZIDIZISI								printf("YAZIDIZISI ");
-SAYI								printf("SAYI ");
-DEGISKEN							printf("DEGISKEN ");
+{YAZIDIZISI}							printf("YAZIDIZISI ");
+{SAYI}								printf("SAYI ");
+{DEGISKEN}							printf("DEGISKEN ");
 {PARANTEZ_AC}							printf("AC PARANTEZ ");
 {PARANTEZ_KAPA}							printf("KAPA PARANTEZ ");
 {ISE}								printf("ISE \n");
