@@ -1,11 +1,12 @@
-Corona Language
-Lex and Lexial Analysis for our "Corona" Language that an infectious pandemic disease. This project done for Programming Languages lesson homework at Akdeniz University Computer Science Engineering program.
+# Corona Language
+Lex and Lexial Analysis for our "Corona" Language that an infectious pandemic disease. This project done for Programming Languages lesson homework at Akdeniz University Computer Science Engineering program. 
 
-There is only lex files, and descriptions. We will add yacc file after.
+There is only lex files, and descriptions. We will add yacc file after. 
 
-"Corona Language" inspired heavily by Java. But this language designed as Turkish language. And syntax in CAPSLOCK form mostly. Only functions defined as "abcdEfg" type.
+"Corona Language" inspired heavily by Java. But this language designed as Turkish language. And syntax in CAPSLOCK form mostly. Only functions defined as "abcdEfg" type. 
 
-Let's have a look our language:
+Let's have a look our language: 
+
 
 EGER (SAYI yas KUCUKESIT 65) [
 
@@ -31,10 +32,13 @@ println("Stay Home too");
 
 }else{
 
-println("Stay Home please!!");
+println("Stay Home please!!"); 
 
 }
 
-As you can see, if we compare both of them, "If" equals "EGER", "{" equls "[" and "}" equals "]" in our language. We added scan as "tara", for classes "BOLUM" and for functions we added "CALISTIR" . If you want to see all codes, please have a look at corona.l file.
+
+As you can see, if we compare both of them, "If" equals "EGER", "{" equls "[" and "}" equals "]" in our language. We added scan as "tara", for classes "BOLUM" and for functions we added "CALISTIR" . If you want to see all codes, please have a look at corona.l file. 
+
 
 If you want to improve our code, please comment us. Your feedbacks are important. Thank you, Nida DİNÇ and Fatimenur ÇELİK.
+ 
